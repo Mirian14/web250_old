@@ -1,0 +1,54 @@
+*/
+/* Color Palete
+--------------------
+•	Text Color (black/Purple): #000000 and #8b22dd
+•	background (Kelly Green): #B1D8B7
+
+*/
+
+
+/* Global Styled
+-------------------------*/
+/* CSS contains use of contextual/attribute selectors */
+ 
+* {
+	/*margin: 0 auto;
+	padding: 0;
+	box-sizing: content-box;
+    display: block;
+    float: none;
+    line-height:normal;
+    position: static;
+    z-index:auto;*/
+    height: 100;
+    margin: 0;
+    background-color: #B1D8B7; /* Format for background Example */
+}
+
+/* Using relative postioning */
+
+/* index page*/
+
+header {
+    text-align: center;
+}
+
+.First {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    text: bold;
+    font-family: verdana;
+}
+
+body {
+      
+    background-color: #B1D8B7;    
+}
+
+main {
+    text-align: center;
+}
