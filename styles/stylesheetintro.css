@@ -1,11 +1,14 @@
-header {
-    text-align: center;
-}
+
 
 /* Part of the introduction page*/
 
 * {
     background-color: #B1D8B7; /* Format for background */  
+}
+
+/* header*/
+header {
+    text-align: center;
 }
 
 
