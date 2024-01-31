@@ -1,0 +1,92 @@
+*/
+/* Color Palete
+--------------------
+•	Text Color (black/Purple): #000000 and #8b22dd
+•	background (Kelly Green): #B1D8B7
+
+*/
+
+
+/* Global Styled
+-------------------------*/
+/* CSS contains use of contextual/attribute selectors */
+
+* {
+    background-color: #B1D8B7; /* Format for background */  
+}
+
+/* Using relative postioning */
+
+/* index page*/
+
+/* head from index page*/
+header {
+    text-align: center;
+}
+
+.navheader {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.navheader a {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+
+.navheader ul li {
+    display: inline;
+}
+
+/* header*/
+h1 {
+    font-weight: bold;
+    font-family: verdana;
+}
+
+/* body from index */
+body {
+    background-color: #B1D8B7;
+}
+
+.divfirst {
+    align-items: center;
+}
+
+/*main from index*/
+.divintro {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 700px;
+}
+
+/* main Contract */
+.contract {
+    max-width: 600px;
+    margin: auto;
+    padding: 20 px;
+    text-align: center;
+}
+
+/* Image hiking from Introduction */
+figure img {
+    width: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+/*footer*/
+footer {
+    text-align: center;
+}
+
+.navfooter ul li {
+    display: inline;
+    padding: 3px;
+}
+
