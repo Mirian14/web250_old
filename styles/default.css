@@ -80,6 +80,13 @@ figure img {
     margin-right: 200px;
 }
 
+/* main brand*/
+#mainbrand h1 {
+    text-align: center;
+
+
+}
+
 /*footer*/
 footer {
     text-align: center;
