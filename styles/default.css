@@ -1,4 +1,3 @@
-*/
 /* Color Palete
 --------------------
 •	Text Color (black/Purple): #000000 and #8b22dd
@@ -6,56 +5,83 @@
 
 */
 
-
-/* Global Styled
--------------------------*/
-/* CSS contains use of contextual/attribute selectors */
-
 * {
-    background-color: #B1D8B7; /* Format for background */  
+    padding: 0;
+    margin: 0;
 }
 
-/* Using relative postioning */
+/*----------------*/
+/* HTML elements */
 
-/* index page*/
-
-/* head from index page*/
 header {
     text-align: center;
 }
 
-.navheader {
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 20px;
+body {                
+    background-color: #B1D8B7;
 }
 
-.navheader a {
-    margin-left: 10px;
-    margin-right: 10px;
-    border: 1px solid black;
-}
-
-.navheader ul li {
-    display: inline;
-}
-
-/* header*/
 h1 {
     font-weight: bold;
     font-family: verdana;
 }
 
-/* body from index */
-body {
-    background-color: #B1D8B7;
+figure img {
+    width: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+footer {
+    text-align: center;
+}
+
+/* -------------------- */
+
+/* Classes */
+.link{
+    cursor: pointer;
+    text-decoration: none; 
+}
+
+.link:hover{
+    color: #FFF;
+    
+}
+
+.nav {
+    border: 1px solid;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+}
+
+.navheader {
+    width: 50%;
+}
+
+.navheader ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    border: 5px solid red;
+    margin: 15px;
+    background: linear-gradient(90deg, #05C850 0%, #55A050 100%);
+}
+
+.navheader li {
+    width: 150px;  
+    padding: 3px;
+    text-align: center;
 }
 
 .divfirst {
     align-items: center;
 }
 
-/*main from index*/
 .divintro {
     display: flex;
     justify-content: center;
@@ -65,7 +91,6 @@ body {
     height: 700px;
 }
 
-/* main Contract */
 .contract {
     max-width: 600px;
     margin: auto;
@@ -73,25 +98,13 @@ body {
     text-align: center;
 }
 
-/* Image hiking from Introduction */
-figure img {
-    width: 100px;
-    margin-left: 200px;
-    margin-right: 200px;
-}
-
-/* main brand*/
-#mainbrand h1 {
-    text-align: center;
-}
-
-/*footer*/
-footer {
-    text-align: center;
-}
-
 .navfooter ul li {
     display: inline;
     padding: 3px;
 }
+/* -------------------- */
 
+/* Id */
+#mainbrand h1 {
+    text-align: center;
+}
