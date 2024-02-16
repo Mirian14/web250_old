@@ -20,7 +20,7 @@ header {
 
 body {                
     background: radial-gradient(#c7e2cb 0%, #4a9054 100%);
-    position: relative;
+    position: relative;  
 }
 
 h1 {
@@ -30,17 +30,27 @@ h1 {
 
 main {
     min-height: 88vh; 
+    text-align: center;
 }
 
 footer {
     text-align: center;
     border: 1px solid white;
     background-color: rgb(46, 182, 55);
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
     bottom: 0;
     position: absolute;
     width: 100%;
-    height: 20vh;
+    height: 10vh;
+    overflow: hidden;
 
+}
+
+footer div {
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 /* -------------------- */
@@ -55,6 +65,7 @@ footer {
     width: 33.3%;
     text-align: center;
     height: 100%;
+    text-transform: capitalize;
 }
 
 .link:hover{
@@ -94,15 +105,10 @@ footer {
     align-items: center;
 }
 
-.main .divintro {
-    text-align: center;
-    margin-top: 20px;
-    height: 700px;
-}
-
 .contract {
     max-width: 600px;
     margin: auto;
+    margin-top: 80px;
     padding: 20px;
     text-align: center;
     border: 1px solid rgb(152, 196, 152) ;
@@ -110,9 +116,19 @@ footer {
     box-shadow: 10px 10px 10px 10px #414040;
 }
 
+.navfooter ul {
+    margin-top: 10px;
+
+}
+
 .navfooter ul li {
     display: inline;
     padding: 3px;
+    
+}
+
+.navfooter a {
+    text-decoration: none;
 }
 
 .title-main {
@@ -123,6 +139,7 @@ footer {
 .container-main {
     width: 100%;
     text-align: center;
+    margin-top: 20px;
 }
 
 .image {
@@ -139,21 +156,23 @@ footer {
 }
 
 .content-introduction {
-    display: flex;
     padding: 20px;
 }
 
 .container-itens-introduction {
-    width: 70%;
+    width: 100%;
     height: 100%;
     border-right: 2px solid #555;
     border-bottom: 2px solid #555;
     border-radius: 20px;
     padding: 30px;
+    text-align: left;
     
 }
 
-
+.hikinglover {
+    font-style: italic;
+}
 /* -------------------- */
 
 /* Id */
