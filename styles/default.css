@@ -57,7 +57,7 @@ footer div {
     text-align: center;
     height: 100%;
     text-transform: capitalize;
-    color: white;  
+    color: rgb(16, 16, 16);  
 }
 
 .link:hover{
@@ -157,7 +157,7 @@ footer div {
 
 .navfooter a {
     text-decoration: none;
-    color: rgba(245, 245, 245, 0.922);
+    color: rgba(3, 3, 3, 0.922);
 }
 
 .title-main {
