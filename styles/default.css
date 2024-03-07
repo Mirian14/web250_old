@@ -80,7 +80,7 @@ footer div {
     align-items: center;
     list-style: none;
     font-size: x-large;
-    height: 60px;
+    height: 50px;
     margin: 15px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px #555;
@@ -108,7 +108,7 @@ footer div {
 .contract {
     max-width: 600px;
     margin: auto;
-    padding: 50px;
+    padding: 30px;
     text-align: justify;
     border: 1px solid  rgba(203, 188, 24, 0.922); 
     border-radius: 20px;
@@ -184,6 +184,10 @@ footer div {
 
 .intro {
     margin-top: 200px;
+}
+
+.intro a {
+    text-decoration: underline;
 }
 
 .formatation {
