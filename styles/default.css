@@ -34,7 +34,7 @@ main {
 footer {
     text-align: center;
     border-top: 1px solid var(--color-gold);
-    background-color:  rgb(151, 133, 229);
+    background-color: var(--color-lavander);
     justify-content: space-around;
     display: flex;
     flex-direction: column;
@@ -59,9 +59,9 @@ footer {
     color: rgb(16, 16, 16);  
 }
 
-.link:hover{
-    color: rgba(203, 188, 24, 0.922);
-    background-color: rgb(151, 133, 229);   
+.link:hover {
+    color: white;
+    background-color: var(--color-lavander));   
 }
 
 .active {
@@ -82,7 +82,7 @@ footer {
     font-size: x-large;
     height: 50px;
     margin: 15px;
-    background: rgb(160, 148, 216);
+    background: var(--color-lavander);
     width: 100vw;
     overflow: hidden;
     position: fixed;
@@ -105,19 +105,20 @@ footer {
 }
 
 .contract {
-    max-width: 600px;
+    max-width: 800px;
     margin: auto;
     padding: 30px;
     text-align: justify;
     border: 1px solid  var(--color-gold);; 
-    border-radius: 20px;
-    box-shadow: 10px 0px 10px 10px #898888;
+    border-radius: 30px;
+    box-shadow: 3px 0px 3px 3px #898888;
     line-height: 1.4;
     display: flex;
     width: 100vw; 
     justify-content: center;
     flex-direction: column;
     margin-top: 70px;  
+    height: 400px;
 }
 
 .contract p a {
@@ -162,7 +163,7 @@ footer {
 .title-main {
     width: 100%;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 70px;
 }
 
 .container-main {
@@ -191,14 +192,14 @@ footer {
 
 .formatation {
     width: 100%;
-    border-bottom: 1px solid rgb(134, 115, 218);
+    border-bottom: 1px solid var(--color-lavander);
     border-top: 1px solid var(--color-gold);
     display: flex;
     justify-content: center;
 }
 
 .t2 {
-    margin-top: 20px;
+    margin-top: 20px;   
 }
 
 .image {
@@ -242,7 +243,7 @@ footer {
 }
 
 #logo {
-    background: url("../images/Logonew.png");
+    background: url("../images/logo2.png");
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
