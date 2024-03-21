@@ -61,7 +61,7 @@ footer {
 
 .link:hover {
     color: #fefefe;
-    background-color: var(--color-lavander));   
+    background-color: var(--color-lavander);   
 }
 
 .active {
