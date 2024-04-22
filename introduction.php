@@ -1,28 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mirian Carvalho's Makeup Carmelia |WEB 250| Introduction </title>
-    <link rel="stylesheet" type="text/css" href="styles/default.css">
-</head>
-
-<body>
-    <header>
-        <div id="logo"></div>
-        <div class="nav"> 
-            <nav class="navheader">
-                <a class="link" href="index.html">Home</a>
-                <a class="link active" href="introduction.html">Introduction</a>
-                <a class="link" href="contract.html">Contract</a>
-                <a class="link" href="brand.html">Brand</a>
-            </nav> 
-            <div class="title-main">
-                <h1>Mirian Carvalho's Makeup Carmelia |WEB 250</h1>
-            </div>
-        </div>
-    </header>
 
     <main>
         <div>
@@ -36,7 +11,7 @@
                 <figure>
                     <img src="images/Hikingpicture.jpg" alt="Hiking photo">
                     <figcaption>
-                        <p class="hikinglover">This is me doing what I love in North Carolina- hiking!!!</p>
+                        <span class="hikinglover">This is me doing what I love in North Carolina- hiking!!!</span>
                     </figcaption>
                 </figure>
             </div>
@@ -93,35 +68,3 @@
             </div>
         </div>
     </main>
-
-    <footer>
-        <nav class="navfooter">
-            <ul>
-                <li><a href="https://github.com/Mirian14/hello--world"> Github |</a></li>
-
-                <li><a href="https://mirian14.github.io/"> Github.io |</a></li>
-
-                <li><a href="https://github.com/Mirian14/web250"> WEB250.io |</a></li>
-
-                <li><a href="https://www.freecodecamp.org/MirianCarvalho"> freeCodeCamp |</a></li>
-
-                <li><a href="https://www.codecademy.com/profiles/MirianCarvalho"> CodeAcademic |</a></li>
-
-                <li><a href="https://jsfiddle.net/user/Mirian14/fiddles/"> JSFiddle |</a></li>
-
-                <li><a href="https://www.linkedin.com/in/mirian-carvalho-9a061263/"> Linkedln </a></li>
-            </ul>
-        </nav>
-        <p class="author">Designed by &#169; Mirian Carvalho</p>
-        <nav>
-            <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fmirian14.github.io%2Fweb250%2Fintroduction.html">
-            <img src="images/button_validation_html5.png" alt="Validate HTML"></a>
-
-            <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fmirian14.github.io%2Fweb250%2Fstyles%2Fdefault.css">
-            <img src="images/button_validation_css.png" alt="Validate CSS"></a>        
-        </nav>
-    </footer>
-
-</body>
-
-</html>
