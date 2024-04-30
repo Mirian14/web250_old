@@ -1,31 +1,3 @@
-<<<<<<< HEAD:introduction.php
-=======
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mirian Carvalho's Makeup Carmelia | WEB 250| Introduction </title>
-    <link rel="stylesheet" type="text/css" href="styles/default.css">
-</head>
-
-<body>
-    <header>
-        <div id="logo"></div>
-        <div class="nav"> 
-            <nav class="navheader">
-                <a class="link" href="index.html">Home</a>
-                <a class="link active" href="introduction.html">Introduction</a>
-                <a class="link" href="contract.html">Contract</a>
-                <a class="link" href="brand.html">Brand</a>
-            </nav> 
-            <div class="title-main">
-                <h1>Mirian Carvalho's Makeup Carmelia | WEB 250</h1>
-            </div>
-        </div>
-    </header>
->>>>>>> f4a18478f3538ab6a22603ec3daff50ab72ce72f:introduction.html
 
     <main>
         <div>
