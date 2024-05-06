@@ -33,7 +33,7 @@
                         Currently finishing my associate degree on Full Stack Programming.
                     </li>
                     <li>
-                        <strong>Background in this Subject:</strong>
+                       <strong>Background in this Subject:</strong>
                         Since I started to be curious about the IT world, I have been learning as much as possible about IT in general. 
                         I have been enjoying my jorney learning how to code. It is so much fun!
                     </li>
@@ -60,9 +60,9 @@
                         </ul>
                     </li>
 
-                    <li><strong>Funny/Interesting Item to Remember me by:</strong> I am Brazilian. No, I do not speak
-                        Spanish
-                        and I do not play soccer either. But I do love hiking, dancing, and parties as a good Brazilian!
+                    <li><strong>Funny/Interesting Item to Remember me by:</strong> I am Brazilian and I do not speak
+                        Spanish.
+                        I do not play soccer either. But I do love hiking, dancing, and parties as a good Brazilian!
                     </li>
                 </ul>
             </div>
